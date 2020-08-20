@@ -1,0 +1,38 @@
+Ativar venv:
+cd cursodjango
+cd venv
+cd Scripts
+activate
+
+Criar o projeto:
+django-admin startproject blog
+
+Rodar o projeto Django:
+python manage.py runserver
+
+Parar servidor:
+ctrl + c
+
+Criar tabelas no DB:
+python manage.py migrate
+
+Criar superusuario:
+python manage.py createsuper user
+
+Criar app
+python manage.py startapp nomeapp
+
+Criar repositório git:
+git init
+
+Mostrar histórico do repositório:
+git status
+
+Fazer um commit:
+git add
+git commit -m "First commit"
+git push origin master
+
+Add remote:
+git remote add origin endereco
+git remote add origin 
